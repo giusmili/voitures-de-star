@@ -1,0 +1,43 @@
+
+@import url(./reset.css);
+
+/* theme */
+:root{
+    --background-theme: #2d3436;
+    --background-list: #00b894;
+    --backround-list-even: #81ecec;
+    --color-text: #fff;
+    --background-level-two: #222;
+}
+header h1{
+    background-color: var(--background-list);
+    text-align: center;
+    line-height: 7.0rem;
+    color: var(--background-level-two);
+    font-family: 'Miama Nueva', sans-serif;
+    
+}
+section{
+    max-width: 120rem;
+    margin: 5rem auto;
+}
+section h2{
+    background-color: var(--background-level-two);
+    color: var(--color-text);
+    text-align: center;
+    line-height: 6.5rem;
+}
+section ul{
+    line-height: 4.5rem ;
+    background-color: var(--background-list);
+    color: var(--background-level-two);
+}
+section ul li{
+    padding: .5rem;
+}
+section ul li:nth-child(2n + 2){
+    background-color: var(--backround-list-even);
+}
+footer p{
+    text-align: center;
+}
