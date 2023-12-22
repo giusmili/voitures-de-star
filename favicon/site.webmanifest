@@ -1,6 +1,6 @@
 {
     "name":"voitures de sport",
-    "short_name":"voitures de sport",
+    "short_name":"voitures",
     "icons":[
        {
           "src":"./android-chrome-192x192.png",
